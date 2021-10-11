@@ -47,7 +47,7 @@ class RatingStarsShortcode extends NunjucksShortcode
             }
             
             #rating-stars-${id}::before {
-                --percent: calc(var(--rating-${id}) / 5 * 100%);
+                --percent: calc(var((--rating-${id}) / 5) * 100%);
                 content: '★★★★★';
                 letter-spacing: 3px;
                 background: linear-gradient(90deg, var(--star-background-${id}) var(--percent), var(--star-color-${id}) var(--percent));
