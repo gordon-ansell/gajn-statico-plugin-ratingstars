@@ -88,7 +88,7 @@ class RatingStarsShortcode extends NunjucksShortcode
         let r = (Math.random() + 1).toString(36).substring(2);
 
         let html = '<style>' + this.getCss(r, kwargs.size, kwargs.fg, kwargs.bg) + '</style>';
-        html += `<div id="rating-stars-${r}" style="--rating-${r}: ${rating};" title="${rating}/5" aria-label="Rating of this product is ${rating} out of 5."></div>`;
+        html += `<div id="rating-stars-${r}" style="--rating-${r}: ${rating};" title="Rating: ${rating}/5" aria-label="Rating of this product is ${rating} out of 5."></div>`;
 
         //this.config.addInlineCss('rating-stars-' + r, this.getCss(r, kwargs.size, kwargs.fg, kwargs.bg));
 
