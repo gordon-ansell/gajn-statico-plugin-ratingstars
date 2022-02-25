@@ -9,7 +9,7 @@
 const { syslog } = require('gajn-framework');
 const RatingStarsShortcode = require('./src/shortcodes/ratingstarsShortcode');
 const debug = require('debug')('Statico:plugin:ratingstars'),
-      debugf = require('debug')('FStatico:plugin:ratingstars');
+      debugf = require('debug')('Full.Statico:plugin:ratingstars');
 
 
 module.exports = function(config, options = {}) {
