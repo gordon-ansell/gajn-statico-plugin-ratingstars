@@ -1,5 +1,5 @@
 {
-	"name": "gajn-statico-plugin-ratingstars",
+	"name": "statico-plugin-ratingstars",
 	"version": "0.1.0",
 	"description": "Rating stars plugin for Statico SSG.",
 	"homepage": "https://gordonansell.com/statico/",
@@ -8,7 +8,7 @@
 	"main": ".statico.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/gordon-ansell/gajn-statico-plugin-ratingstars"
+		"url": "git+https://github.com/gordon-ansell/statico-plugin-ratingstars"
 	},
 	"authors": [
 		{
@@ -21,7 +21,7 @@
 		"src/"
 	],
 	"dependencies": {
-		"gajn-framework": "../../framework"
+		"js-framework": "../../framework"
     },
 	"devDependencies": {},
 	"engines": {
